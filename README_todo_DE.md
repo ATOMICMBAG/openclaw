@@ -1,10 +1,8 @@
-# AI Worker Node – Ubuntu + OpenClaw Intranet Deployment
+# OpenClaw AI Worker Node – Ubuntu + OpenClaw Intranet Deployment
 
 ## Overview
 
-Dieses Projekt beschreibt den Aufbau eines dedizierten KI-Worker-Nodes auf älterer Hardware innerhalb eines Intranets.
-
-Ziel ist es, einen stabilen, isolierten und remote steuerbaren AI-Agent-Server bereitzustellen, der über externe LLM-APIs (z. B. OpenRouter) angebunden wird und mehrere virtuelle „Mitarbeiter“ simulieren kann.
+Dieses Projekt beschreibt den Aufbau eines dedizierten KI-Worker-Nodes auf älterer Hardware innerhalb eines Intranets. Ziel ist es, einen stabilen, isolierten und remote steuerbaren AI-Agent-Server bereitzustellen, der über externe LLM-APIs (z. B. OpenRouter) angebunden wird und mehrere virtuelle „Mitarbeiter“ simulieren kann.
 
 Technologische Basis:
 
@@ -362,3 +360,4 @@ Ein älterer PC wird transformiert zu:
 - Sichere isolierte Umgebung
 
 ---
+
