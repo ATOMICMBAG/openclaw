@@ -15,7 +15,7 @@ This project documents the setup of a dedicated **KI-Worker-Node** on repurposed
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. [System Architecture](#-system-architecture)
 2. [Base Installation – Ubuntu 24.04 LTS](#-base-installation--ubuntu-2404-lts)
@@ -34,7 +34,7 @@ This project documents the setup of a dedicated **KI-Worker-Node** on repurposed
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```mermaid
 graph TD
@@ -92,18 +92,18 @@ sudo reboot
 
 ---
 
-## 🌐 Network Setup
+## Network Setup
 
 ### 3.1 Static IP Configuration
 
 **Recommended:** Configure DHCP reservation in your router  
 **Example:** `192.168.0.50`
 
-> 💡 This ensures your AI node is always reachable at the same address within the intranet.
+> This ensures your AI node is always reachable at the same address within the intranet.
 
 ---
 
-## 🔐 Remote Access Setup
+## Remote Access Setup
 
 ### 4.1 SSH (Command Line Access)
 
@@ -129,7 +129,7 @@ sudo ufw allow 3389
 
 **Windows Client:** Use "Microsoft Remote Desktop" to connect to `192.168.0.50`
 
-> ✅ Test connectivity from another machine in your intranet before proceeding.
+> Test connectivity from another machine in your intranet before proceeding.
 
 ---
 
@@ -150,7 +150,7 @@ sudo adduser openclaw
 
 ---
 
-## ⚙️ OpenClaw Installation (Bare Metal)
+## OpenClaw Installation (Bare Metal)
 
 Switch to the service user:
 
@@ -307,7 +307,7 @@ Create a custom profile if needed for additional syscall restrictions.
 
 ---
 
-## 🐳 Docker-Based Alternative (Recommended for Isolation)
+## Docker-Based Alternative (Recommended for Isolation)
 
 ### 9.1 Install Docker
 
@@ -372,7 +372,7 @@ services:
 
 Start with: `docker-compose up -d`
 
-### ✅ Docker Advantages
+### Docker Advantages
 
 | Benefit           | Description                                |
 | ----------------- | ------------------------------------------ |
@@ -414,11 +414,11 @@ MODEL=mistralai/mistral-large-2411
 MODEL=anthropic/claude-3.5-sonnet
 ```
 
-> 💡 Check [OpenRouter Models](https://openrouter.ai/models) for the latest model IDs and pricing.
+> Check [OpenRouter Models](https://openrouter.ai/models) for the latest model IDs and pricing.
 
 ---
 
-## 💬 Messenger Integration (Optional)
+## Messenger Integration (Optional)
 
 Connect your AI agent to communication platforms:
 
@@ -471,7 +471,7 @@ journalctl -u openclaw -f
 
 ---
 
-## ⚡ Performance on Older Hardware
+## Performance on Older Hardware
 
 Optimize for limited resources:
 
@@ -485,7 +485,7 @@ Optimize for limited resources:
 
 ---
 
-## 🎯 Result
+## Result
 
 Your repurposed PC is now transformed into:
 
@@ -497,7 +497,7 @@ Your repurposed PC is now transformed into:
 
 ---
 
-## 📄 License & Disclaimer
+## License & Disclaimer
 
 - This deployment guide is intended for **private intranet use**.
 - External API usage (OpenRouter, etc.) incurs token-based costs – monitor usage.
@@ -515,4 +515,3 @@ _Transform old hardware into intelligent infrastructure – securely, efficientl
 ```
 
 ```
-
