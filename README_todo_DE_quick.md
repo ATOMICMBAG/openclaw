@@ -1,4 +1,4 @@
-# AI Worker Node – Ubuntu + OpenClaw Intranet Deployment
+# OpenClaw AI Worker Node – Ubuntu + OpenClaw Intranet Deployment
 
 ````markdown
 > **Aus Alt mach Neu:** Verwandelt einen älteren PC in einen autonomen KI-Worker-Node innerhalb eines sicheren Intranets.
@@ -238,3 +238,4 @@ Da der Server im Intranet läuft, ist Sicherheit dennoch Priorität.
 ```
 
 ```
+
